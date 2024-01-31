@@ -1,0 +1,41 @@
+"""
+Expense Tracker Documentation
+
+This script provides a simple Expense Tracker system allowing users to input their daily expenses, categorize them, and view summaries of their spending patterns.
+
+File: expense_tracker.py
+Author: [Your Name]
+
+Usage:
+    - Run the script to access the Expense Tracker Menu.
+    - Choose options to add expenses, view summaries, or exit the program.
+
+Dependencies:
+    - Python 3.x
+    - datetime module
+
+File Structure:
+    - expense_tracker.py: Main script file.
+    - expense_data.json: File to store expense data in JSON format.
+
+Functions:
+    - load_data(): Load existing data from expense_data.json or initialize an empty data structure.
+    - save_data(data): Save data to the expense_data.json file.
+    - add_expense(): Function to input daily expenses.
+    - view_summary(data): Function to view summaries of monthly expenses and category-wise expenditure.
+    - main(): Main program containing the menu and user interaction.
+
+Usage Example:
+    - Run the script in a Python environment.
+    - Follow the menu prompts to add expenses, view summaries, or exit the program.
+
+"""
+
+import json
+import os
+from datetime import datetime
+
+# Constants
+DATA_FILE = "expense_data.json"
+
+# ... (rest of the script)
